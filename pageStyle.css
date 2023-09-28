@@ -1,3 +1,20 @@
 body{
     background-color: black;
 }
+.showDiv{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: fit-content;
+    height: fit-content;
+    user-select: none;
+}
+.showDiv:hover{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 2px 2px 12px 3px rgb(85, 85, 85);
+    user-select: none;
+}
